@@ -1,0 +1,83 @@
+# =============================================================================
+# Vivado / Xilinx Generated Files (NEVER commit these)
+# =============================================================================
+
+# Project-level generated directories
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+*.gen/
+
+# Vivado generated files
+*.jou
+*.log
+*.str
+*.debug
+*.pb
+*.wdb
+
+# Vivado crash/backup files
+*.backup.log
+*.backup.jou
+hs_err_*.log
+vivado_*.zip
+usage_statistics_webtalk*
+
+# Synthesis & Implementation outputs
+*.bit
+*.bin
+*.ltx
+*.dcp
+*.xdc.orig
+
+# IP-related generated files  
+*.xml~
+component.xml~
+*.xci~
+
+# =============================================================================
+# Simulation Outputs (generated during sim, large files)
+# =============================================================================
+*.vcd
+*.vpd
+*.fsdb
+*.shm/
+*.trn
+*.dsn
+
+# Vivado simulation databases
+xsim.dir/
+.Xil/
+xvlog.pb
+xvhdl.pb
+xelab.pb
+xsim.pb
+
+# =============================================================================
+# OS / Editor Files
+# =============================================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code
+.vscode/
+
+# =============================================================================
+# Build Artifacts
+# =============================================================================
+*.o
+*.elf
+*.map
+*.lst
